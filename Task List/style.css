@@ -1,0 +1,21 @@
+.input-field input:focus+label {
+    color: rgb(24, 117, 192) !important;
+    font-weight: bold;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid rgb(24, 117, 192) !important;
+    box-shadow: 0 1px 0 0 rgb(24, 117, 192) !important;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: rgb(24, 117, 192);
+}
+
+.btn:hover {
+    border: 2px solid rgb(24, 117, 192);
+    background-color: white;
+    color: rgb(24, 117, 192);
+    font-weight: bold;
+}
